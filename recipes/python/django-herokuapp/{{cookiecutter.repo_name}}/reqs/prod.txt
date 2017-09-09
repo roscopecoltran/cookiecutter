@@ -1,0 +1,4 @@
+-r common.txt
+
+# Server
+waitress==1.0.1

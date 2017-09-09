@@ -1,0 +1,21 @@
+Django==1.10.5
+
+# Database
+dj-database-url==0.4.2
+psycopg2==2.6.2
+
+# Assets
+whitenoise==3.2.3
+
+# Storage (Amazon S3)
+boto==2.45.0
+
+# Time zones support
+pytz==2016.10
+
+# Markdown
+django-classy-tags==0.8.0
+Markdown==2.6.8
+
+
+# Your custom requirements go here
