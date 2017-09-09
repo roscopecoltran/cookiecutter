@@ -1,0 +1,13 @@
+{
+    "full_name": "Jace Browning",
+    "email": "jacebrowning@gmail.com",
+    "github_username": "jacebrowning",
+    "github_repo": "template-python-demo",
+    "default_branch": "master",
+    "project_name": "TemplateDemo",
+    "package_name": "demo",
+    "project_short_description": "Sample project generated from jacebrowning/template-python.",
+    "test_runner": "pytest",
+    "python_major_version": 2,
+    "python_minor_version": 7
+}
