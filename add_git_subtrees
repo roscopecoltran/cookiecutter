@@ -20,4 +20,13 @@ git subtree add --prefix recipes/docker/docker-cookiecutter https://github.com/a
 git subtree add --prefix recipes/python/pypackage https://github.com/audreyr/cookiecutter-pypackage master --squash
 git subtree add --prefix recipes/cpp/pypackage https://github.com/skakri/cookiecutter-cpp master --squash
 
-# git subtree add --prefix recipes/cpp/pypackage https://github.com/skakri/cookiecutter-cpp master --squash
+git subtree add --prefix recipes/python/ttd https://github.com/testthedocs/ttd.cookiecutter master --squash
+git subtree add --prefix recipes/docker/alpine/apache-php70 https://github.com/leventogut/cookiecutter-docker-alpine-apache-php70 master --squash
+git subtree add --prefix recipes/php/laravel https://github.com/leventogut/cookiecutter-laravel master --squash
+git subtree add --prefix recipes/ruby/microservice https://github.com/FGtatsuro/cookiecutter-microservice master --squash
+git subtree add --prefix recipes/golang/GoCookie https://github.com/thisissoon/GoCookieCutter master --squash
+git subtree add --prefix recipes/docker/alpine/base-image https://github.com/svx/cookiecutter-docker master --squash
+git subtree add --prefix recipes/golang/upp https://github.com/Financial-Times/cookiecutter-upp-golang master --squash
+git subtree add --prefix recipes/python/django-rest-framework https://github.com/PressLabs/cookiecutter-django-rest-framework master --squash
+git subtree add --prefix recipes/docker/alpine/guidelines https://github.com/Capitains/docker-cookiecutter-guidelines master --squash
+
