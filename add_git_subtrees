@@ -1,0 +1,23 @@
+#!/bin/sh
+set -x
+set +e
+
+clear
+echo
+
+git subtree add --prefix recipes/nodejs/webpack https://github.com/goldhand/cookiecutter-webpack master --squash
+git subtree add --prefix recipes/python/pipproject https://github.com/wdm0006/cookiecutter-pipproject master --squash
+git subtree add --prefix recipes/python/python-cli https://github.com/nvie/cookiecutter-python-cli master --squash
+git subtree add --prefix recipes/python/pyvanguard https://github.com/robinandeer/cookiecutter-pyvanguard master --squash
+git subtree add --prefix recipes/python/jupyter-widgets https://github.com/jupyter-widgets/widget-cookiecutter master --squash
+git subtree add --prefix recipes/python/template-python3 https://github.com/jacebrowning/template-python master --squash
+git subtree add --prefix recipes/python/pytest-plugin https://github.com/pytest-dev/cookiecutter-pytest-plugin master --squash
+git subtree add --prefix recipes/python/pylibrary https://github.com/ionelmc/cookiecutter-pylibrary master --squash
+git subtree add --prefix recipes/golang/cookiecutter-golang https://github.com/lacion/cookiecutter-golang master --squash
+git subtree add --prefix recipes/python/flask https://github.com/sloria/cookiecutter-flask master --squash
+git subtree add --prefix recipes/python/django-herokuapp https://github.com/dulaccc/cookiecutter-django-herokuapp master --squash
+git subtree add --prefix recipes/docker/docker-cookiecutter https://github.com/audreyr/docker-cookiecutter master --squash
+git subtree add --prefix recipes/python/pypackage https://github.com/audreyr/cookiecutter-pypackage master --squash
+git subtree add --prefix recipes/cpp/pypackage https://github.com/skakri/cookiecutter-cpp master --squash
+
+# git subtree add --prefix recipes/cpp/pypackage https://github.com/skakri/cookiecutter-cpp master --squash
